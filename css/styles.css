@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 10px;
+  color: green;
+}
+
+#attempts {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#guess {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
